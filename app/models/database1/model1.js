@@ -1,4 +1,3 @@
-'use strict';
 module.exports = (sequelize, DataTypes) => {
   const MacapaContact = sequelize.define("contact", {
     nome: DataTypes.STRING,
